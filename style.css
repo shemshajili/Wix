@@ -1,8 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
 }
 
 .navbar-container {
@@ -144,7 +146,7 @@ transition: 0.4s ease;
 main {
   margin-top: 175px;
 }
-.home-page {
+.start-page {
   position: relative;
   height: 130vh;
   min-height: 100%;
@@ -353,18 +355,18 @@ p {
   font-size: 42px;
   font-weight: 600;
 }
-.clients__toprow h1{
+.clients-text h1{
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-size: 18px;
 }
-.clients__container {
-  height: 200px;
+.clients-container {
+  height: 300px;
   background-color: #f8f0ff;
 }
-.clients__botrow {
+.clients-details {
   height: 40%;
   display: flex;
   align-items: center;
@@ -418,12 +420,12 @@ p {
 .dinformation-icon i {
   font-size: 20px;
 }
-.underline-input {
+.line{
   border: none;
   outline: none;
   border-bottom: 1px solid black;
 }
-.contact__form__container {
+.contact-ontainer {
   display: flex;
   flex-direction: column;
 }
@@ -454,7 +456,7 @@ p {
   flex-direction: column;
   width: 100%;
 }
-.sumbitnow__btn{
+.sumbitnow-btn{
   color: white;
   background-color: #943deb;
   border-radius: 25px;
@@ -462,14 +464,17 @@ p {
   border: none;
   font-size: 16px;
 }
-.sumbitnow__btn:hover{
+.sumbitnow-btn:hover{
   background-color: #16163f;
   transition: 0.4s ease;
 }
-.mapsLocation {
+.location {
   width: 100vw;
 }
-.mapsLocation iframe {
+.location iframe {
   width: 100%;
 }
-
+.start-link:hover, .offer-link:hover, .aboutus-link:hover,.testimonial-link:hover, .clients-link:hover, .contacts-link:hover{
+  color: #9e3ffc;
+  transition: 0.2s ease-in;
+}
